@@ -89,5 +89,5 @@ class Circle(Shape):
 rect = Rectangle(10, 5)
 circle = Circle(7)
 
-print(rect.area())            # Вывод: 50
-print(round(circle.area(), 2))  # Вывод: 153.86 (если брать 3.14)
+print(rect.area())
+print(round(circle.area(), 2))
